@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root{
+        --primaryColor: #fbbf24; /*amber 400*/
+        --backgroundColor: white;
+        --titleColor: #92400e; /*amber 800*/
+        --textColor: #451a03; /*amber 950*/
+        --iconColor: #1f2937;
+        --cardBg: #fef3c7; /*amber 100*/
+        --siderBg: #2d3748;
+        --hoverCardBg: #fcd34d; /*amber 300*/
+        --itemBg: #e5e7eb; /*gray 200*/
+    }
+    :root[data-mode="dark"]{
+        --backgroundColor: #1a202c;
+        --titleColor: #a0aec0; 
+        --textColor: #e2e8f0; 
+        --iconColor: #d1d5db;
+        --cardBg: #2d3748; /*slate 800*/
+        --siderBg: #fef3c7;
+        --hoverCardBg: #334155;
+        --itemBg: #111827; /*gray 900*/
+    }
+    a.active{
+        @apply text-primary underline;
+    }    
+}
+
+.swiper-wrapper {
+    padding-top: 5rem;
+    max-width: 100%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    height: 50px;
+    width: 45px;
+    background: var(--siderBg);
+    z-index: 10;
+    right: 60px;
+    left: auto;
+    top: 0;
+    transform: translateY(50%);
+    color: var(--itemBg);
+    border-radius: 8px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 1.5rem;
+  }
