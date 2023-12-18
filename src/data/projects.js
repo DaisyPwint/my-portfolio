@@ -3,8 +3,24 @@ import Omnifood from '../assets/omnifood.png';
 import FoodPos from '../assets/food-pos.png';
 import Blog from '../assets/blog.png';
 import Dashboard from '../assets/dashboard.png';
+import NextelUser from '../assets/nextel-userview.png';
+import BrewHaven from '../assets/brew-haven.png';
 
 const projects = [
+    {
+        name: 'Nextel Hotel',
+        img: NextelUser,
+        tech: ['redux-toolkit','react-Router','tailwind-css','antd'],
+        workUrl: 'https://github.com/DaisyPwint/NexTel-UserView/tree/with-dummy',
+        demoUrl: 'https://phoo-nextel-userview.netlify.app/'
+    },
+    {
+        name: 'Brew Haven',
+        img: BrewHaven,
+        tech: ['redux-toolkit','react-Router','tailwind-css'],
+        workUrl: 'https://github.com/DaisyPwint/Brew-Haven-Coffee-Shop',
+        demoUrl: 'https://phoo-brew-haven.netlify.app/'
+    },
     {
         name: 'Todo List',
         img: Todo,
@@ -40,20 +56,6 @@ const projects = [
         workUrl: 'https://github.com/DaisyPwint/simple-admin-dashboard',
         demoUrl: 'https://phoo-simple-admin-dashboard.netlify.app/'
     },
-    {
-        name: 'Blog',
-        img: Blog,
-        tech: ['HTML','Bootstrap'],
-        workUrl: 'https://github.com/DaisyPwint/Blog-Template-pj',
-        demoUrl: 'https://phoo-blog-template.netlify.app/'
-    },
-    {
-        name: 'Admin Dashboard',
-        img: Dashboard,
-        tech: ['HTML','Bootstrap'],
-        workUrl: 'https://github.com/DaisyPwint/simple-admin-dashboard',
-        demoUrl: 'https://phoo-simple-admin-dashboard.netlify.app/'
-    }
 ]
 
 export default projects;
