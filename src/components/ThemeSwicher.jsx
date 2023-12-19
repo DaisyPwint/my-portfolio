@@ -7,7 +7,7 @@ const ThemeSwicher = () => {
   const [ theme,setTheme ] = useState(null);
 
   useEffect(() => {
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: light)').matches;
     setTheme(prefersDarkMode ? 'dark' : 'light');    
   },[])
 
@@ -34,7 +34,7 @@ const ThemeSwicher = () => {
             <div className='w-5 h-5 flex items-center justify-center'>
                 <FiMoon className='text-white'/>
             </div>  
-            <div className={`absolute w-5 h-5 rounded-full bg-amber-600 -z-10 transition-all duration-700 ${checked && theme === 'dark' ? 'left-[8px]' : 'left-[32px]'}`} />        
+            <div className={`absolute w-5 h-5 rounded-full bg-amber-600 -z-10 transition-all duration-700 ${checked ? 'left-[32px]' : 'left-[8px]'}`} />        
         </label>
     </div>
   )
