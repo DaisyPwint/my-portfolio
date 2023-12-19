@@ -4,7 +4,7 @@ import Title from '../Title';
 
 const ExperienceItem = ({ date, description }) => {
   return (
-    <div className='flex flex-wrap items-center mb-3 md:mb-4 gap-20'>
+    <div className='flex flex-wrap items-center mb-3 md:mb-4 md:gap-20 gap-5'>
       <SubTitle className='text-textColor'>{date}</SubTitle>
       <p className='px-2 py-1 bg-itemBg rounded-md text-textColor'>{description}</p>
     </div>
@@ -13,7 +13,7 @@ const ExperienceItem = ({ date, description }) => {
 
 const ExperienceSection = () => {
   return (
-    <section className='mt-20'>
+    <section className='md:mt-20 mt-14'>
       <Title>Work Experience</Title>
 
       <ExperienceItem

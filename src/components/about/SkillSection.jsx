@@ -4,7 +4,7 @@ const skills = ['HTML','CSS','Javascript','React','Tailwind CSS','Ant Design','B
 
 const SkillSection = () => {
   return (
-    <section className='mt-20'>
+    <section className='md:mt-20 mt-14'>
       <Title>Skills</Title>
         <p className='flex flex-wrap gap-2 items-center justify-start text-textColor'>
         {

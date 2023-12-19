@@ -10,7 +10,7 @@ import ProjectItem from './ProjectItem';
 
 const ProjectsSection = () => {
   return (
-    <section className='pt-32'>
+    <section className='md:pt-32 pt-24'>
       <Title className="text-center">Recent Works</Title>
       <div className='flex mt-10'>
         <Swiper modules={[Navigation]}

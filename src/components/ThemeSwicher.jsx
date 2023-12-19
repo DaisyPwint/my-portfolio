@@ -26,7 +26,7 @@ const ThemeSwicher = () => {
 
   return (
     <div className='md:ml-7'>
-        <input type="checkbox" checked={checked} onChange={handleToggle} id='switcher'/>
+        <input type="checkbox" checked={checked} onChange={handleToggle} id='switcher' className='hidden'/>
         <label htmlFor='switcher' className='relative flex items-center w-15 h-8 rounded-full px-2 gap-1 transition bg-amber-200 cursor-pointer z-10'>
             <div className='w-5 h-5 flex items-center justify-center'>
                 <FiSun className='text-white'/>

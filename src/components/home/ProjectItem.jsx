@@ -1,7 +1,6 @@
 import React from 'react'
 import Github from '../../assets/github.svg';
 import Demo from '../../assets/demo.png';
-import SubTitle from '../SubTitle';
 
 const ProjectItem = ({name,img,tech,workUrl,demoUrl}) => {
   return (

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='bg-slate-800 py-7'>
       <div className="max-w-5xl mx-auto w-11/12">
-        <div className='flex md:flex-row flex-col justify-center items-center md:gap-48 gap-16'>
+        <div className='flex md:flex-row flex-col justify-center items-center md:gap-48 gap-12'>
           <a href="." className='font-serif text-4xl text-amber-600 font-bold'>Phoo Pwint</a>
           <div className="flex md:flex-row flex-col md:gap-32 gap-14">
             <FooterCol heading="Important Links"
@@ -50,7 +50,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <p className="text-slate-200">
+        <p className="text-slate-200 md:text-left text-center">
           {`All right serves - ${new Date().getFullYear()} by Phoo Pwint Aung`}
         </p>
       </div>

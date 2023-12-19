@@ -3,7 +3,7 @@ import Title from '../Title';
 
 const EducationSection = () => {
   return (
-    <section className='mt-32'>
+    <section className='md:mt-32 mt-20'>
       <Title>Education</Title>
       <div className='flex flex-wrap items-center mb-2 md:mb-3 gap-10'>
         <SubTitle className='text-textColor'>University</SubTitle>

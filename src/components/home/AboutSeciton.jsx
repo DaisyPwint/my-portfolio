@@ -5,7 +5,7 @@ import Profile from '../../assets/profile.svg'
 
 const AboutSeciton = () => {
   return (
-    <section className='pt-32'>
+    <section className='md:pt-32 pt-24'>
       <Title>About Me</Title>
       <div className='flex md:flex-row flex-col gap-5'>        
         <div className='flex-[4_2_0%] lg:mt-10'>
