@@ -8,7 +8,7 @@ const ProjectItem = ({name,img,tech,workUrl,demoUrl}) => {
         <img src={img} alt={name} className='w-full h-48 md:h-64 object-cover transition duration-150 hover:scale-110' />
         <div className='text-textColor p-5 w-full'>
             <div className='flex flex-wrap items-center justify-between mb-2 md:mb-3 gap-1'>
-                <h2 className="text-lg md:text-xl font-semibold">{name}</h2>
+                <h2 className="text-lg md:text-xl font-semibold mb-2">{name}</h2>
                 <p className='flex flex-wrap gap-2 items-center justify-start text-xs md:text-sm'>
                     {
                         tech.map((item,index) => (

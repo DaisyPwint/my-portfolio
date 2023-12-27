@@ -8,7 +8,7 @@ const ThemeSwicher = () => {
 
   useEffect(() => {
     const prefersDarkMode = window.matchMedia('(prefers-color-scheme: light)').matches;
-    setTheme(prefersDarkMode ? 'dark' : 'light');    
+    setTheme(prefersDarkMode ? 'dark' : 'light') ;    
   },[])
 
   useEffect(() => {

@@ -4,6 +4,7 @@ import FoodPos from '../assets/food-pos.png';
 import Blog from '../assets/blog.png';
 import Dashboard from '../assets/dashboard.png';
 import NextelUser from '../assets/nextel-userview.png';
+import NextelDashboard from '../assets/nextel-dashboard.png';
 import BrewHaven from '../assets/brew-haven.png';
 
 const projects = [
@@ -13,6 +14,13 @@ const projects = [
         tech: ['redux-toolkit','react-Router','tailwind-css','antd'],
         workUrl: 'https://github.com/DaisyPwint/NexTel-UserView/tree/with-dummy',
         demoUrl: 'https://phoo-nextel-userview.netlify.app/'
+    },
+    {
+        name: 'Nextel Hotel Dashboard',
+        img: NextelDashboard,
+        tech: ['redux-toolkit','react-Router','antd'],
+        workUrl: 'https://github.com/DaisyPwint/Nextel-admin-dashboard/tree/with-dummy',
+        demoUrl: 'https://phoo-nextel-dashboard.netlify.app/'
     },
     {
         name: 'Brew Haven',
