@@ -30,6 +30,13 @@ const projects = [
         demoUrl: 'https://phoo-brew-haven.netlify.app/'
     },
     {
+        name: 'Touro-Home-Page',
+        img: BrewHaven,
+        tech: ['react','tailwind-css'],
+        workUrl: 'https://github.com/DaisyPwint/Touro-Home-Page',
+        demoUrl: 'https://phoo-touro.netlify.app/'
+    },
+    {
         name: 'Todo List',
         img: Todo,
         tech: ['React JS','CSS'],
