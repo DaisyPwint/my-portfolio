@@ -6,6 +6,7 @@ import Dashboard from '../assets/dashboard.png';
 import NextelUser from '../assets/nextel-userview.png';
 import NextelDashboard from '../assets/nextel-dashboard.png';
 import BrewHaven from '../assets/brew-haven.png';
+import Touro from '../assets/touro-homepage.png';
 
 const projects = [
     {
@@ -31,7 +32,7 @@ const projects = [
     },
     {
         name: 'Touro-Home-Page',
-        img: BrewHaven,
+        img: Touro,
         tech: ['react','tailwind-css'],
         workUrl: 'https://github.com/DaisyPwint/Touro-Home-Page',
         demoUrl: 'https://phoo-touro.netlify.app/'
