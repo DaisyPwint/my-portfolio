@@ -7,6 +7,7 @@ import NextelUser from '../assets/nextel-userview.png';
 import NextelDashboard from '../assets/nextel-dashboard.png';
 import BrewHaven from '../assets/brew-haven.png';
 import Touro from '../assets/touro-homepage.png';
+import Shopdoora from '../assets/shopdoora-test.png'
 
 const projects = [
     {
@@ -14,28 +15,35 @@ const projects = [
         img: NextelUser,
         tech: ['redux-toolkit','react-Router','tailwind-css','antd'],
         workUrl: 'https://github.com/DaisyPwint/NexTel-UserView/tree/with-dummy',
-        demoUrl: 'https://phoo-nextel-userview.netlify.app/'
+        demoUrl: 'https://nextel-userview.vercel.app/'
     },
     {
         name: 'Nextel Hotel Dashboard',
         img: NextelDashboard,
         tech: ['redux-toolkit','react-Router','antd'],
         workUrl: 'https://github.com/DaisyPwint/Nextel-admin-dashboard/tree/with-dummy',
-        demoUrl: 'https://phoo-nextel-dashboard.netlify.app/'
+        demoUrl: 'https://nextel-admin-dashboard.vercel.app/'
     },
     {
         name: 'Brew Haven',
         img: BrewHaven,
         tech: ['redux-toolkit','react-Router','tailwind-css'],
         workUrl: 'https://github.com/DaisyPwint/Brew-Haven-Coffee-Shop',
-        demoUrl: 'https://phoo-brew-haven.netlify.app/'
+        demoUrl: 'https://brew-haven-coffee-shop.vercel.app/'
+    },
+    {
+        name: 'Next.js pj Test',
+        img: Shopdoora,
+        tech: ['react','nextjs'],
+        workUrl: 'https://github.com/DaisyPwint/Shopdoora-test',
+        demoUrl: 'https://shopdoora-test-pi.vercel.app/'
     },
     {
         name: 'Touro-Home-Page',
         img: Touro,
         tech: ['react','tailwind-css'],
         workUrl: 'https://github.com/DaisyPwint/Touro-Home-Page',
-        demoUrl: 'https://phoo-touro.netlify.app/'
+        demoUrl: 'https://touro-home-page.vercel.app/'
     },
     {
         name: 'Todo List',
