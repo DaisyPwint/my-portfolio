@@ -1,6 +1,6 @@
 import Title from "../Title"
 
-const skills = ['HTML','CSS','Javascript','React','Tailwind CSS','Ant Design','Bootstrap']
+const skills = ['HTML','CSS','Javascript','React','Next.js','Tailwind CSS','Shadcn UI','Ant Design','Bootstrap']
 
 const SkillSection = () => {
   return (

@@ -25,6 +25,11 @@ const ExperienceSection = () => {
         date="2023(August - November)"
         description="Intern at Nexcode Company ltd."
       />
+
+      <ExperienceItem
+        date="2024(March - Present)"
+        description="Frontend Developer at Ninjavan Myanmar Company ltd."
+      />
     </section>
   );
 };

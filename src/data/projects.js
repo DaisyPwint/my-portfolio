@@ -8,8 +8,16 @@ import NextelDashboard from '../assets/nextel-dashboard.png';
 import BrewHaven from '../assets/brew-haven.png';
 import Touro from '../assets/touro-homepage.png';
 import Shopdoora from '../assets/shopdoora-test.png'
+import BohoCrochet from '../assets/boho-crochet-studio.png';
 
 const projects = [
+    {
+        name: 'Boho Crochet Studio',
+        img: BohoCrochet,
+        tech: ['nextjs','tailwind-css','framer-motion'],
+        workUrl: 'https://github.com/DaisyPwint/boho-crochet-studio',
+        demoUrl: 'https://boho-crochet-studio-rv6z.vercel.app/'
+    },
     {
         name: 'Nextel Hotel',
         img: NextelUser,
